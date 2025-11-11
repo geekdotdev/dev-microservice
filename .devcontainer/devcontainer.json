@@ -1,8 +1,7 @@
 {
   "dockerFile": "Dockerfile",
   "mounts": [
-    "type=bind,source=${localEnv:HOME}/.m2,target=/root/.m2",
-    "type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh"
+    "type=bind,source=${localEnv:HOME}/.m2,target=/root/.m2"
   ],
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
