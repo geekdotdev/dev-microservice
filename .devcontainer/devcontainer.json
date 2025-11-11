@@ -1,0 +1,19 @@
+{
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    "type=bind,source=${localEnv:HOME}/.m2,target=/root/.m2",
+    "type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "installMaven": "true",
+      "installGradle": "false"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "containerEnv": {
+     "DEVELOPER_NAME": "${localEnv:DEVELOPER_NAME}",
+     "DEVELOPER_EMAIL": "${localEnv:DEVELOPER_EMAIL}"
+  }
+}
