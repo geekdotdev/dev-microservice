@@ -10,7 +10,8 @@
       "installMaven": "true",
       "installGradle": "false"
     },
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {}
   },
   "containerEnv": {
      "DEVELOPER_NAME": "${localEnv:DEVELOPER_NAME}",
