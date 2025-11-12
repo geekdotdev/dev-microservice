@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-api-aggregation (1)" />
         <module name="hello-api-aggregation" />
+        <module name="util-api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hello-api-aggregation" options="-parameters" />
       <module name="hello-api-aggregation (1)" options="-parameters" />
+      <module name="util-api" options="-parameters" />
     </option>
   </component>
 </project>

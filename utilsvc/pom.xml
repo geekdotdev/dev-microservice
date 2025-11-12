@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.geek.dev</groupId>
-	<artifactId>hello-api-aggregation</artifactId>
+	<artifactId>util-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hello-api-aggregation</name>
+	<name>utilsvc</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

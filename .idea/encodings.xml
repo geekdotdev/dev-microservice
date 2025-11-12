@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utilsvc/src/main/java" charset="UTF-8" />
   </component>
 </project>
